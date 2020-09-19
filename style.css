@@ -3,3 +3,8 @@ body {
     font-family: 'Mali', cursive;
 }
 
+.picture {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+}
