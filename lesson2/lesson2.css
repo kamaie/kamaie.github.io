@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Mali', cursive;
+    background-color:#FFE4C4;
+}
+
+header {
+    background-color:#DEB887;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 25px;
+}
+
+.picture {
+    position: absolute;
+    width: 180px;
+    top: 20px;
+    right: 150px;
+}
+
+.picture img {
+    width: 100%;
+}
