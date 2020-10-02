@@ -1,0 +1,58 @@
+@media only screen and (min-width: 1200px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+header {
+    background-color:#DEB887;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 25px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Mali', cursive;
+    background-color:#FFE4C4;
+}
+
+main img:nth-child(1) {
+    position: absolute;
+    width: 180px;
+    top: 20px;
+    left: 150px;
+}
+
+main img:nth-child(2) {
+    position: absolute;
+    width: 180px;
+    top: 20px;
+    right: 150px;
+}
+
+main img:nth-child(3) {
+    position: absolute;
+    width: 180px;
+    top: 20px;
+}
+
+main img {
+    width: 10%;
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 10 px;
+
+}
