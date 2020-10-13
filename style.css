@@ -51,3 +51,7 @@ ul #first, #second, #third {
 hr {
     border-color: black;
 }
+
+a {
+    color: black;
+}

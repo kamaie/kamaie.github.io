@@ -1,28 +1,44 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Mali', cursive;
     background-color: white;
+    width: 90%;
 }
 
 header {
+    margin: 0 auto;
     background-color:#DEB887;
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
     width: 100%;
     padding-bottom: 10px;
+    width: 90%;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
 }
 
 footer {
+    margin: 0 auto;
     background-color: #DEB887;
     text-align: center;
     margin-top: 40px;
     padding-top: 3px;
     padding-bottom: 30px;
+    width: 90%;
+}
+
+img {
+    width: 120px;
+    height: 120px;
 }
 
 nav a {
     text-decoration: none;
+    color: black;
 }
 
 .firstlist li {
@@ -38,6 +54,36 @@ nav a {
     padding: 5px;
 }
 
+.thirdlist li {
+    padding: 10px;
+}
+
+.fourthlist li {
+    padding: 10px;
+}
+
+.fifthlist li {
+    padding: 10px;
+}
+
 ul #first, #second, #third {
     border-right: 1px solid black;
+}
+
+.color1 {
+    background-color: #7584ad;
+    padding: 10px;
+    border-color: black;
+}
+
+.color2 {
+    background-color: #a37f6f;
+    padding: 10px;
+    border-color: black;
+}
+
+.color3 {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-color: black;
 }
