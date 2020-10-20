@@ -16,14 +16,12 @@ nav a {
 }
 
 nav ul {
-    display: flex;
+    display: block;
+    text-align: center;
     background-color: #a37f6f;
     justify-content: center;
     overflow: hidden;
-}
-
-nav ul.hide {
-    display: none;
+    padding: 10px;
 }
 
 nav button {
@@ -44,19 +42,25 @@ button {
 header button {
     display: block;
 }
-
 .firstlist li {
-    font-size: larger;
-    list-style-type: none;
-    padding: 25px;
-    text-decoration: none;
+   display: none;
+}
+
+.firstlist li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
 }
 h1{
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 h2{
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 p {
