@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Site">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="/lesson2/css/normalize.css">   
+    <link rel="stylesheet" href="/lesson4/css/small.css"> 
+    <link rel="stylesheet" href="/lesson4/css/large.css"> 
+
+
+
+    <title>allweather713</title>
+</head>
+
+<body>
+    
+    <header>            
+        <img src="/lesson4/images/websiteLogo.jpeg"alt="logo">
+        <h1>All Weather 713</h1>
+        <button onclick="toggleMenu()">☰</button>
+        
+    </header>
+
+        <nav>
+            <ul class="firstlist">
+                <li><a href="">Home</a></li>
+                <li><a href="">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="">Storm Center</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <h1 class="Preston">Preston Idaho</h1>
+
+        <section class="firstSection">
+        <h2>Hero Image and Summary</h2>
+        </section>
+
+        <section class="secondSection">
+        <h2 class="forecast">Five Day Forecast</h2>
+        </section>
+
+        <section class="thirdSection">
+        <h2>Article</h2>
+        </section>
+
+        <section class="fourthSection">
+        <h2>Contact</h2>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="secondlist">
+          <li id="first"> &copy; 2020 </li>
+          <li id="second"> Christian Kamaie </li>
+          <li id="third"> Houston Texas </li>
+          <li><a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a></li>
+        </ul>
+
+        <div id="footer-div"> Last Updated: <span id="currentDate"></span></div>
+    </footer>
+
+
+  <script src="/date.js"></script>
+
+</body>
