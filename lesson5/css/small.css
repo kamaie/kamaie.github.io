@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color: #7584ad;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+img {
+    width: 20%
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: block;
+    background-color: #a37f6f;
+    overflow: hidden;
+    padding: 10px;
+}
+
+nav button {
+    margin-left: .2rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+button {
+    margin: auto;
+    margin-right: 40px;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: none;
+}
+header button {
+    display: block;
+}
+.firstlist li {
+   display: none;
+   padding: 10px;
+   font-size: medium;
+   text-align: center;
+}
+
+.firstlist li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    padding-left: 30px;
+}
+
+section {
+    border: 4px #7584ad double;
+    margin: 15px;
+}
+
+.firstSection {
+    padding-left: 10px;
+}
+
+.secondSection {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.forecast {
+    background-color: #bdbdbd;
+    padding: 30px;
+}
+
+.thirdSection {
+    padding-left: 10px;
+}
+
+.fourthSection {
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #7584ad;
+    text-align: center;
+    padding: 10px;
+}
+
+.secondlist li {
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+}
