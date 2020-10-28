@@ -1,4 +1,5 @@
 header {
+    display: flex;
     width: 100%;
     background-color: #7584ad;
     text-align: center;
@@ -7,7 +8,7 @@ header {
 }
 
 img {
-    width: 10%
+    width: 20%
 }
 
 nav a {
@@ -17,15 +18,13 @@ nav a {
 
 nav ul {
     display: block;
-    text-align: center;
     background-color: #a37f6f;
-    justify-content: center;
     overflow: hidden;
     padding: 10px;
 }
 
 nav button {
-    margin-left: .2rem 2%;
+    margin-left: .2rem;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
@@ -44,6 +43,9 @@ header button {
 }
 .firstlist li {
    display: none;
+   padding: 10px;
+   font-size: medium;
+   text-align: center;
 }
 
 .firstlist li:first-child {

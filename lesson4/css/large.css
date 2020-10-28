@@ -6,6 +6,11 @@
 
     nav ul {
     display: flex;
+    justify-content: center;
+    }
+
+    img {
+        width: 10%
     }
 
     .firstlist li {
@@ -15,8 +20,6 @@
         padding: 25px;
         text-decoration: none;
     }   
-
-  
 
     h2 {
         text-align: left;
