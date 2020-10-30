@@ -9,8 +9,8 @@
     justify-content: center;
     }
 
-    img {
-        width: 10%
+    .weatherLogo {
+        width: 110%
     }
 
     .firstlist li {
@@ -39,4 +39,8 @@
         padding-left: 10px;
         display: inline;
     }
-}
+
+    .idaho {
+        width: 90%;
+        }    
+    }

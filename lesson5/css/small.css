@@ -7,8 +7,8 @@ header {
     padding: 10px;
 }
 
-img {
-    width: 20%
+.weatherLogo {
+    width: 40%
 }
 
 nav a {
