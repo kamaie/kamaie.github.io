@@ -34,4 +34,9 @@
         list-style-type: none;
         padding: 25px;
     }
+
+    .fourthSection {
+        padding-left: 10px;
+        display: inline;
+    }
 }
