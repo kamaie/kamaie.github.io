@@ -8,7 +8,7 @@ header {
 }
 
 .weatherLogo {
-    width: 40%
+    width: 10%
 }
 
 nav a {
@@ -98,7 +98,8 @@ section {
 }
 
 .fourthSection {
-    padding-left: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;;
 }
 
 footer {
@@ -111,4 +112,32 @@ footer {
     display: block;
     list-style-type: none;
     padding: 5px;
+}
+
+.idaho {
+    width: 50%;
+    }   
+
+.weatherIcon {
+    width:25%;
+}
+
+.pumkin {
+    width: 20%;
+    float: right;
+}
+
+.thirdSection{ 
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+iframe {
+    width: 50%;
+    float: left;
+}
+
+.fourthSection p {
+    text-align: right;
+    padding-right: 40px;
 }

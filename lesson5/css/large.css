@@ -9,10 +9,6 @@
     justify-content: center;
     }
 
-    .weatherLogo {
-        width: 110%
-    }
-
     .firstlist li {
         display: flex;
         font-size: larger;
@@ -34,13 +30,4 @@
         list-style-type: none;
         padding: 25px;
     }
-
-    .fourthSection {
-        padding-left: 10px;
-        display: inline;
-    }
-
-    .idaho {
-        width: 90%;
-        }    
     }
