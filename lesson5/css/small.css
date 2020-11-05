@@ -78,10 +78,33 @@ section {
     margin: 15px;
 }
 
-.firstSection {
-    padding-left: 10px;
+#pancakes {
+    display: none;
+    max-width: 100%;
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
 }
 
+.firstSection {
+    display: block;
+    top: 25px;
+    left: 10px;
+    background-color: #bdbdbd;
+    border: 1px solid #ccc;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777777;
+    opacity: .8;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 370px;
+    left: 160px;
+}   
 .secondSection {
     padding-left: 10px;
     padding-right: 10px;
@@ -91,6 +114,7 @@ section {
 .forecast {
     background-color: #bdbdbd;
     padding: 30px;
+    text-align: center;
 }
 
 .thirdSection {
@@ -115,7 +139,8 @@ footer {
 }
 
 .idaho {
-    width: 50%;
+    width: 80%;
+    padding-left: 130px;
     }   
 
 .weatherIcon {
