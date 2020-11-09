@@ -25,9 +25,59 @@
         display: none;
     }
 
+    .idaho {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding-left: 120px;
+    }
+
+    .firstSection {
+        display: block;
+        top: 25px;
+        left: 10px;
+        background-color: #bdbdbd;
+        border: 1px solid #ccc;
+        padding: .5rem;
+        box-shadow: 0 0 30px #777777;
+        opacity: .8;
+        text-align: center;
+        width: 30%;
+        position: absolute;
+        top: 350px;
+        left: 160px;
+    }   
+
     .secondlist li {
         display: inline;
         list-style-type: none;
         padding: 25px;
+    }
+
+    .thirdSection{ 
+        text-align: left;
+        padding: 10px;
+        padding-bottom: 35px;
+    }
+
+    .pumkin {
+        float: right;
+        padding-left: 10px;
+        width: 20%;
+    }
+
+    .fourthSection {
+        padding-bottom: 85px;
+        padding-left: 10px;
+    }
+
+    .fourthSection p {
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    iframe {
+        width: 50%;
+        float: left;
     }
     }
