@@ -7,8 +7,13 @@ header {
     padding: 10px;
 }
 
+
 .weatherLogo {
     width: 10%
+}
+
+nav {
+    width: 100%;
 }
 
 nav a {
@@ -30,6 +35,11 @@ nav button {
     font-size: 1.6rem;
     color: white;
 }
+
+a:hover {
+    background-color: white;
+  }
+
 
 button {
     margin: auto;
