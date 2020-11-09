@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Site">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="/lesson2/css/normalize.css">   
+    <link rel="stylesheet" href="/lesson5/css/small.css"> 
+    <link rel="stylesheet" href="/lesson5/css/large.css"> 
+
+
+
+    <title>allweather713</title>
+</head>
+
+<body onload="showPancakes();">
+    <header>            
+        <img src="/lesson4/images/websiteLogo.jpeg" class="weatherLogo" alt="logo">
+        <h1>All Weather 713</h1>
+    </header>
+
+        <nav>
+            <ul class="firstlist">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="">Home</a></li>
+                <li class="active"><a href="">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="">Storm Center</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <div id="pancakes">
+            Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion
+        </div>
+
+        <h1 class="Preston">Preston, Idaho</h1>
+        <img src="/lesson5/images/idaho.jpeg" class="idaho" alt="hero">
+        
+        <section class="firstSection">
+        <h3>Weather Summary</h3>
+        <p>Today's Weather</p>
+        <p>High: 79 °</p>
+        <p>Low: 61 ° </p>
+        </section>
+
+        <section class="secondSection">
+        <h2 class="forecast">Five Day Forecast</h2>
+        
+        <table class="forecastTable">
+            <thread>
+                <tr>
+                    <th>SUN</th>
+                    <th>MON</th>
+                    <th>TUE</th>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                    <th>SAT</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td>
+                        67°F
+                        <br>
+                        <img class="weatherIcon" src="images/websiteLogo.jpeg" alt="rainy">
+                    </td>
+                    <td>
+                        65°F
+                        <br>
+                        <img class="weatherIcon" src="images/websiteLogo.jpeg" alt="rainy">
+                    </td>
+                    <td>
+                        62°F
+                        <br>
+                        <img class="weatherIcon" src="images/websiteLogo.jpeg" alt="rainy">
+                    </td>
+                    <td>
+                        61°F
+                        <br>
+                        <img class="weatherIcon" src="images/websiteLogo.jpeg" alt="rainy">
+                    </td>
+                    <td>
+                        58°F
+                        <br>
+                        <img class="weatherIcon" src="images/websiteLogo.jpeg" alt="rainy">
+                    </td>
+                    <td>
+                        55°F
+                        <br>
+                        <img class="weatherIcon" src="images/websiteLogo.jpeg" alt="rainy">
+                    </td>
+                    <td>
+                        45°F
+                        <br>
+                        <img class="weatherIcon" src="images/websiteLogo.jpeg" alt="rainy">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    
+        </section>
+
+        <section class="thirdSection">
+        <h2>Pumpkin Shortage Causes Confusion</h2>
+        <img src="/lesson5/images/pumkin.jpeg" class="pumkin" alt="pumkin">
+        <p>As the stress of Halloween comes, many parents are left with the burden of buying and carving pumpinks. Halloween couldnt come at 
+            a worse time as their are fewer and fewer pumpkins available, leaving paretns in distress. As the stress of Halloween comes, many 
+            parents are left with the burden of buying and carving pumpinks. Halloween couldnt come at a worse time as their are fewer and 
+            fewer pumpkins available, leaving paretns in distress. As the stress of Halloween comes, many parents are left with the burden 
+            of buying and carving pumpinks. Halloween couldnt come at a worse time as their are fewer and fewer pumpkins available, leaving 
+            parents in distress. As the stress of Halloween comes, many parents are left with the burden of buying and carving pumpinks. 
+            Halloween couldnt come at a worse time as their are fewer and fewer pumpkins available, leaving paretns in distress. 
+        </p>
+        </section>
+
+        <section class="fourthSection">
+        <h2>Contact</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14219.249043049578!2d-111.87596475517552!3d42.09484770854314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1602904841718!5m2!1sen!2sus" 
+        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <p>
+            <span></span>
+            Phone number: 281-555-8784
+        </p>
+        <p>
+            <span></span>
+            Email: emailAddress@website.com
+        </p>
+        <p>
+            <span></span>
+            Address: 123 StreetName Preston, Idaho
+        </p>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="secondlist">
+          <li id="first"> &copy; 2020 </li>
+          <li id="second"> Christian Kamaie </li>
+          <li id="third"> Houston Texas </li>
+          <li><a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a></li>
+        </ul>
+
+        <div id="footer-div"> Last Updated: <span id="currentDate"></span></div>
+    </footer>
+
+
+  <script src="/lesson5/js/datePancake.js"></script>
+  <script src="/lesson4/js/menu.js"></script>
+
+</body>

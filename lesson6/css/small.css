@@ -1,0 +1,173 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color: #7584ad;
+    text-align: center;
+    justify-content: center;
+}
+
+.weatherLogo {
+    width: 10%
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: block;
+    background-color: #a37f6f;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 0%;
+}
+
+nav ul li.active a {
+    background-color: black;
+    color: white;
+}
+
+nav button {
+    margin-left: .2rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+  }
+
+button {
+    margin: auto;
+    margin-right: 40px;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: none;
+}
+
+header button {
+    display: block;
+}
+.firstlist li {
+   display: none;
+   padding: 10px;
+   font-size: medium;
+   text-align: center;
+}
+
+.firstlist li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    border: 4px #7584ad double;
+    margin: 15px;
+}
+
+#pancakes {
+    display: none;
+    max-width: 100%;
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.firstSection {
+    display: block;
+    background-color: #bdbdbd;
+    border: 1px solid #ccc;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777777;
+    opacity: .8;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}   
+.secondSection {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.forecast {
+    background-color: #bdbdbd;
+    padding: 30px;
+    text-align: center;
+}
+
+.thirdSection {
+    padding-left: 10px;
+}
+
+.fourthSection {
+    display: block;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #7584ad;
+    text-align: center;
+    padding: 10px;
+}
+
+.secondlist li {
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.idaho {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding-left: 40px;
+    }   
+
+.weatherIcon {
+    width:25%;
+}
+
+.pumkin {
+    width: 40%;
+}
+
+.thirdSection{ 
+    text-align: center;
+    padding: 10px;
+}
+
+iframe {
+    width: 50%;
+}
