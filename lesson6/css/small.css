@@ -148,11 +148,9 @@ footer {
 }
 
 .idaho {
-    text-align: center;
-    justify-content: center;
-    margin: auto;
+    padding-left: 70px;
     width: 80%;
-    padding-left: 40px;
+
     }   
 
 .weatherIcon {
