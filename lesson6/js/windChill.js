@@ -11,5 +11,5 @@ function windChill() {
     var multiplier = Math.pow(10, digits);
     var windChillRounded = Math.round(windChillFactor * multiplier ) / multiplier;
 
-    document.getElementById("windChill").innerHTML = windChillftr;
+    document.getElementById("windChill").innerHTML = 5;
 }
