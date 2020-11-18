@@ -1,0 +1,20 @@
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+img {
+    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 2s;
+}
