@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1200px) {
+   
+    .firstlist li:first-child {
+        display: none;
+    }
+
+    nav ul {
+    display: flex;
+    justify-content: center;
+    }
+
+    .firstlist li {
+        display: flex;
+        font-size: larger;
+        list-style-type: none;
+        padding: 25px;
+        text-decoration: none;
+    }   
+
+    h2 {
+        text-align: left;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .secondlist li {
+        display: inline;
+        list-style-type: none;
+        padding: 25px;
+    }
+
+    .Gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figure:hover {
+        box-shadow: 0 10px 15px rgba(0,0,0,0.4);
+      }
+}
