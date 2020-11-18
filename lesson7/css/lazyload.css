@@ -1,4 +1,15 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color: #7584ad;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: auto;
+}
+
 main {
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -17,4 +28,16 @@ picture img[data-src] {
 picture img {
     filter: blur(0em);
     transition: filter 2s;
+}
+
+footer {
+    background-color: #7584ad;
+    text-align: center;
+    padding: 10px;
+}
+
+.secondlist li {
+    display: block;
+    list-style-type: none;
+    padding: 5px;
 }
