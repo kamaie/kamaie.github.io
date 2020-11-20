@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Site">
+
+    <link rel="stylesheet" href="/lesson2/css/normalize.css">   
+    <link rel="stylesheet" href="/lesson8/css/small.css"> 
+    <link rel="stylesheet" href="/lesson8/css/medium.css"> 
+    <link rel="stylesheet" href="/lesson8/css/large.css"> 
+
+
+
+    <title>allweather713</title>
+</head>
+
+<body onload="showPancakes();">
+    <header>            
+        <img src="/lesson4/images/websiteLogo.jpeg" class="weatherLogo" alt="logo">
+        <h1>All Weather 713</h1>
+    </header>
+    
+        <nav>
+            <ul class="firstlist">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li class="active"><a href="">Storm Center</a></li>
+                <li ><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <h1>Storm Center - Report a Storm</h1>
+        <Form>
+            <fieldset>
+            <legend>Contact Information</legend>
+                <label class="firstInfo">
+                    Full Name
+                    <input type ="text" name="fullName" required autofocus pattern="[A-Za-z]{5,}">
+                <!-- autofocus = get focus when the page loads-->
+                <!-- pattern = specifies a regular expression that the element's value is checked against -->
+                </label>
+
+                <label class="firstInfo">
+                    Email
+                    <input type ="email" name="email" placeholder="enterEmail@yahoo.com"> 
+                </label>
+
+                <label class="firstInfo">
+                    Phone
+                    <input type ="tel" name="phone" placeholder="1234567890" required> 
+                </label>
+
+                <label class="firstInfo">
+                    Zip
+                    <input type ="number" name="zipCode" required pattern="{5,5}"> 
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                    <label class="secondInfo">
+                        Date of Storm
+                        <input type ="date" name="stormDate">
+                    </label>
+
+                    <label class="secondInfo">
+                        Storm Type
+                        <input list ="stormTypes" name="stormTypes">
+                            <datalist id="stormTypes">
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurricane"></option>
+                                <option value="Thunderstorm"></option>
+                                <option value="Tornado"></option>
+                            </datalist> 
+                    </label>
+                    <!--
+                    <label class="secondInfo">
+                        Storm Severity 
+                        <input type ="tel" name="phone" placeholder="1234567890" required> 
+                    </label>
+                    -->
+
+                    <label class="secondInfo">
+                        Storm Region
+                        <select name="stormRegion"> 
+                            <option value selected disabled="disabled">Select Region</option>
+                            <option value="Preston">Preston</option>
+                            <option value="SodaSprings">Soda Springs</option>
+                            <option value="FishHaven">Fish Haven</option>
+                        </select>    
+                    </label>
+
+                    <label class="secondInfo">
+                        Are you in danger?
+                        <input type ="number" name="zipCode" required pattern="{5,5}"> 
+                    </label>
+
+                    <label class="secondInfo">
+                        Additional Information
+                        <textarea class="additionalInformation" name="additionalInformation"></textarea> 
+                    </label>
+                    
+                </fieldset>
+        </Form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <ul class="secondlist">
+          <li id="first"> &copy; 2020 </li>
+          <li id="second"> Christian Kamaie </li>
+          <li id="third"> Houston Texas </li>
+          <li><a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a></li>
+        </ul>
+
+        <div id="footer-div"> Last Updated: <span id="currentDate"></span></div>
+    </footer>
+
+
+  <script src="/lesson5/js/datePancake.js"></script>
+  <script src="/lesson4/js/menu.js"></script>
+  <script src="/lesson6/js/windChill.js"></script>
+  <script src="/lesson7/js/lazyload.js"></script>
+  <script> 
+    WebFont.load({
+      google: {
+        families: ['Roboto' , 'Raleway']
+      }
+    });
+  </script>
+</body>
