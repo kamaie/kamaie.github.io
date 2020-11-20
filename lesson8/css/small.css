@@ -118,4 +118,24 @@ img {
     padding-bottom: 20px;
 }
 
+fieldset {
+    display: block;
+    width: 40%;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 100px;
+    width: 275px;
+}
+
+form .firstInfo input{
+    display: block;
+}
+
+form .secondInfo input, select, textarea{
+    display: block;
+}
+
 

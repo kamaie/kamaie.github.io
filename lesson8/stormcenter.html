@@ -30,7 +30,7 @@
                 <li><a href="">Soda Springs</a></li>
                 <li><a href="">Fish Haven</a></li>
                 <li class="active"><a href="/lesson8/stormcenter.html">Storm Center</a></li>
-                <li ><a href="gallery-7.html">Gallery</a></li>
+                <li ><a href="/lesson7/gallery-7.html">Gallery</a></li>
             </ul>
         </nav>
 
@@ -97,33 +97,20 @@
                         </select>    
                     </label>
 
-                    <label class="secondInfo">
-                        Are you in danger?
-                        <input type ="number" name="zipCode" required pattern="{5,5}"> 
-                    </label>
+                    <div>Are you in danger?</div>
+                    <label class="secondInfo"><input type="radio" name="yes" value="yes"> Yes</label>
+                    <label class="secondInfo"><input type="radio" name="maybe" value="maybe"> Maybe</label>
+                    <label class="secondInfo"><input type="radio" name="no" value="no"> No</label>
+                    <!--type="radio" collections of radio buttons describing a set of related options-->
 
                     <label class="secondInfo">
                         Additional Information
                         <textarea class="additionalInformation" name="additionalInformation"></textarea> 
                     </label>
 
+                    <input type="submit" value="Report My Storm" class="reportStorm">
                 </fieldset>
         </Form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
 
     <footer>
