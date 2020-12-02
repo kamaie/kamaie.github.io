@@ -125,6 +125,17 @@ fieldset {
     margin-bottom: 15px;
 }
 
+.severity {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.dangerInfo {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 textarea {
     height: 100px;
     width: 275px;
