@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Site">
+
+    <link rel="stylesheet" href="/lesson2/css/normalize.css">   
+    <link rel="stylesheet" href="/lesson9/css/small.css"> 
+    <link rel="stylesheet" href="/lesson9/css/medium.css"> 
+    <link rel="stylesheet" href="/lesson9/css/large.css"> 
+
+    <title>allweather713</title>
+</head>
+
+<body onload="showPancakes();">
+    <header>            
+        <img src="/lesson4/images/websiteLogo.jpeg" class="weatherLogo" alt="logo">
+        <h1>All Weather 713</h1>
+    </header>
+    
+        <nav>
+            <ul class="firstlist">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li class="active"><a href="/lesson9/index.html">Home</a></li>
+                <li><a href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li ><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li ><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+     <section class="one">
+        <div id="FishHaven">
+        <h1>Fish Haven</h1>
+        <h2>This is Fish Heaven</h2>
+        <p>Year Founded: 1864</p>
+        <p>Population: 501</p>
+        <p>Annual Rain Fall: 14.2</p>
+        </div>
+        <img src="/lesson9/images/FH.jpg" alt="FH">
+    </section>  
+
+    <section class="two">
+        <div id="Preston">
+        <h1>Preston</h1>
+        <h2>Home of Napoleon Dynamite</h2>
+        <p>Year Founded: 1866</p>
+        <p>Population: 5204</p>
+        <p>Annual Rain Fall: 16.65</p>
+        </div>
+        <img src="/lesson9/images/PT.jpg" alt="PT">
+    </section>
+
+    <section class="three">
+        <div id="SodaSprings">
+        <h1>Soda Springs</h1>
+        <h2>Historic Oregon Trail Oasis. The Soda is on Us.</h2>
+        <p>Year Founded: 1858</p>
+        <p>Population: 2985</p>
+        <p>Annual Rain Fall: 15.75</p>
+        </div>
+        <img src="/lesson9/images/SS.jpg" alt="SS">
+    </section>
+
+    <section class="four">
+        <div id="cI">
+        <h1>Contact Information</h1>
+        <p>Email: emailAddress@website.com</p>
+        <p>Call us: 281-555-8784</p>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <ul class="secondlist">
+          <li id="first"> &copy; 2020 </li>
+          <li id="second"> Christian Kamaie </li>
+          <li id="third"> Houston Texas </li>
+          <li><a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a></li>
+        </ul>
+
+        <div id="footer-div"> Last Updated: <span id="currentDate"></span></div>
+    </footer>
+
+
+  <script src="/lesson5/js/datePancake.js"></script>
+  <script src="/lesson4/js/menu.js"></script>
+  <script src="/lesson6/js/windChill.js"></script>
+  <script src="/lesson7/js/lazyload.js"></script>
+  <script src="/lesson8/js/stormcenter.js"></script>
+  <script> 
+    WebFont.load({
+      google: {
+        families: ['Roboto' , 'Raleway']
+      }
+    });
+  </script>
+</body>

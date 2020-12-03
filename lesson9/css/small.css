@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color: #7584ad;
+    text-align: center;
+    justify-content: center;
+}
+
+.weatherLogo {
+    width: 10%
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: block;
+    background-color: #a37f6f;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 0%;
+}
+
+nav ul li.active a {
+    background-color: black;
+    color: white;
+}
+
+nav button {
+    margin-left: .2rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+  }
+
+button {
+    margin: auto;
+    margin-right: 40px;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: none;
+}
+
+header button {
+    display: block;
+}
+.firstlist li {
+   display: none;
+   padding: 10px;
+   font-size: medium;
+   text-align: center;
+}
+
+.firstlist li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #7584ad;
+    text-align: center;
+    padding: 10px;
+}
+
+.secondlist li {
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.weatherIcon {
+    width:25%;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.one {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.two {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.three {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.four {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.four h1 {
+    text-align: left;
+}
