@@ -3,17 +3,17 @@ html {
 }
 
 h1 {
-    font-size: 1.4rem;;
+    font-size: 1rem;;
 }
 
 body {
-    margin: 30px auto;
     text-align: center;
 }
 
 section {
     text-align: center;
     justify-content: center;
+    padding-left: 450px;
 }
 
 .secondlist {
@@ -21,19 +21,18 @@ section {
 }
 
 table {
-    border-collapse:collapse;
     border: 2px solid #ccc;
-    font-size: 1.4em;
+    font-size: 1em;
     box-shadow: 10px 10px 10px -1px #628ca6;
 }
 
 td, th {
-    padding: 10px 14px;
+    padding: 10px 15px;
 }
 
 td, th {
     text-align: center;
-    border: 2px solid #ccc;
+    border: 4px solid #ccc;
 }
 
 tr:nth-child(even) {
@@ -47,7 +46,7 @@ tr:nth-child(odd) {
 thead tr th {
     background-color: #7fb9c2;
     color: black;
-    font-size: 2.1rem;
+    font-size: 2rem;
     text-shadow: 1px 0 black;
     letter-spacing:1px;
     font-weight:bold;
@@ -55,7 +54,7 @@ thead tr th {
 
 tbody tr th {
     background-color: #628ca6;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
 }
