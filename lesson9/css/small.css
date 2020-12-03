@@ -109,6 +109,11 @@ main {
     row-gap: 20px;
 }
 
+section {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .one {
     border: 2px solid black;
     padding: 10px;
@@ -131,6 +136,7 @@ main {
     border: 2px solid black;
     padding: 10px;
     text-align: left;
+    margin-bottom: 10px;
 }
 
 .four h1 {
