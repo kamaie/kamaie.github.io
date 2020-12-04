@@ -30,7 +30,6 @@
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 0;
     }
 
     .townsect {
@@ -39,5 +38,9 @@
         min-width: 400px;
         justify-content: center;
         text-align: center;
+    }
+
+    .townimg {
+        width: 100%;
     }
 }

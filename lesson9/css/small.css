@@ -79,6 +79,12 @@ h2{
     text-align: center;
 }
 
+main p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
 }
@@ -121,7 +127,7 @@ img {
 }
 
 .towninfo h2 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
