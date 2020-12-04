@@ -27,50 +27,17 @@
         padding: 25px;
     }
 
-    main {
+    .cards {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 20px;
+        margin: 0;
     }
 
-    .one {
-        grid-column: 1;
-        grid-row: 1/3;
-        display: block;
-    }
-
-    .one img {
-        width: 100%;
-        padding-left: 0;
-    }
-
-    .two {
-        grid-column: 2;
-        grid-row: 1/3;
-        display: block;
-    }
-
-    .two img {
-        width: 100%;
-        padding-left: 0;
-    }
-
-    .three {
-        grid-column: 3;
-        grid-row: 1/3;
-        display: block;
-    }
-
-    .three img {
-        width: 100%;
-        padding-left: 0;
-    }
-
-    .four {
-        grid-column: 1/4;
-        grid-row: 4/6;
-    }
-
-    .four img {
-        padding-left: 250px;
+    .townsect {
+        display: grid;
+        width: 400px;
+        min-width: 400px;
+        justify-content: center;
+        text-align: center;
     }
 }
