@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Site">
+
+    <link rel="stylesheet" href="/lesson2/css/normalize.css">   
+    <link rel="stylesheet" href="/lesson6/css/small.css"> 
+    <link rel="stylesheet" href="/lesson6/css/large.css"> 
+
+
+
+    <title>allweather713</title>
+</head>
+
+<body onload="showPancakes();">
+    <header>            
+        <img src="/lesson4/images/websiteLogo.jpeg" class="weatherLogo" alt="logo">
+        <h1>All Weather 713</h1>
+    </header>
+    
+        <nav>
+            <ul class="firstlist">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="/lesson9/index.html">Home</a></li>
+                <li class="active"><a href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main onload="windChill();">
+        <div id="pancakes">
+            Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion
+        </div>
+
+        <h1 class="Preston">Preston, Idaho</h1>
+
+        <picture class="idaho">
+            <source media="(min-width:1200px)" srcset="/lesson6/images/large.jpeg">
+            <source media="(min-width:650px)" srcset="/lesson6/images/medium.jpeg">
+            <source media="(min-width:375px)" srcset="/lesson6/images/small.jpeg">
+            <img src="/lesson5/images/idaho.jpeg" class="idaho" alt="hero">
+        </picture>
+
+        <section class="firstSection">
+        <h3>Weather Summary</h3>
+        
+        <p>Today's Weather</p>
+        
+        <p>Currently:
+             <span id="currently"></span> 
+        </p>
+
+        <p>Temperature: 
+            <span id="temperature"></span>
+        </p>
+
+        <p>Humidity: 
+            <span id="humidity"></span>
+        </p>
+
+        <p>Wind Speed:
+            <span id="windSpeed"></span>  
+        </p>
+        </section>
+
+        <section class="secondSection">
+        <h2 class="forecast">Five Day Forecast</h2>
+        <table class="forecastTable">
+            <thead>
+                <tr>
+                    <th><span id="Day1"></span></th>
+                    <th><span id="Day2"></span></th>
+                    <th><span id="Day3"></span></th>
+                    <th><span id="Day4"></span></th>
+                    <th><span id="Day5"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span id="Temp1"></span>°F<br>
+                        <img src="" alt="" id="icon1">
+                    </td>
+
+                    <td>
+                        <span id="Temp2"></span>°F<br>                 
+                        <img src="" alt="" id="icon2">
+                    </td>
+
+                    <td>
+                        <span id="Temp3"></span>°F<br>
+                        <img src="" alt="" id="icon3">
+                    </td>
+
+                    <td>
+                        <span id="Temp4"></span>°F<br>
+                        <img src="" alt="" id="icon4">
+                    </td>
+
+                    <td>
+                        <span id="Temp5"></span>°F<br>
+                        <img src="" alt="" id="icon5">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+
+        <section class="thirdSection">
+        <h2>Pumpkin Shortage Causes Confusion</h2>
+        <img src="/lesson5/images/pumkin.jpeg" class="pumkin" alt="pumkin">
+        <p>As the stress of Halloween comes, many parents are left with the burden of buying and carving pumpinks. Halloween couldnt come at 
+            a worse time as their are fewer and fewer pumpkins available, leaving paretns in distress. As the stress of Halloween comes, many 
+            parents are left with the burden of buying and carving pumpinks. Halloween couldnt come at a worse time as their are fewer and 
+            fewer pumpkins available, leaving paretns in distress. As the stress of Halloween comes, many parents are left with the burden 
+            of buying and carving pumpinks. Halloween couldnt come at a worse time as their are fewer and fewer pumpkins available, leaving 
+            parents in distress. As the stress of Halloween comes, many parents are left with the burden of buying and carving pumpinks. 
+            Halloween couldnt come at a worse time as their are fewer and fewer pumpkins available, leaving paretns in distress. 
+        </p>
+        </section>
+
+        <section class="fourthSection">
+        <h2>Contact</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14219.249043049578!2d-111.87596475517552!3d42.09484770854314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1602904841718!5m2!1sen!2sus" 
+        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <p>
+            <span></span>
+            Phone number: 281-555-8784
+        </p>
+        <p>
+            <span></span>
+            Email: emailAddress@website.com
+        </p>
+        <p>
+            <span></span>
+            Address: 123 StreetName Preston, Idaho
+        </p>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="secondlist">
+          <li id="first"> &copy; 2020 </li>
+          <li id="second"> Christian Kamaie </li>
+          <li id="third"> Houston Texas </li>
+          <li><a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a></li>
+        </ul>
+
+        <div id="footer-div"> Last Updated: <span id="currentDate"></span></div>
+    </footer>
+
+
+  <script src="/lesson5/js/datePancake.js"></script>
+  <script src="/lesson4/js/menu.js"></script>
+  <script src="/lesson6/js/windChill.js"></script>
+  <script src="/lesson10/js/preston-weather-api.js"></script>
+  <script> 
+    WebFont.load({
+      google: {
+        families: ['Roboto' , 'Raleway']
+      }
+    });
+  </script>
+</body>
