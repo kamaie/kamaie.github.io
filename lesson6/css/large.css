@@ -74,4 +74,8 @@
         width: 50%;
         float: left;
     }
+
+    .events {
+        margin-left: 100px;
     }
+}

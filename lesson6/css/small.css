@@ -169,3 +169,17 @@ footer {
 iframe {
     width: 50%;
 }
+
+.events {
+
+    text-align: center;
+    margin-left: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #a37f6f;
+    max-width: 80%;
+}
+
+.events h2 {
+    text-align: center;
+}
