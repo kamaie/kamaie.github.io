@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoots">
+
+    <link rel="stylesheet" href="/finalProject/css/small.css">   
+    <link rel="stylesheet" href="/finalProject/css/medium.css"> 
+    <link rel="stylesheet" href="/finalProject/css/large.css"> 
+
+    <title>Scoots Rentals</title>
+</head>
+
+<body>
+    <header>
+        <img src="/lesson4/images/websiteLogo.jpeg" class="scootsLogo" alt="logo">
+        <h1>Scoots Rentals</h1>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+            <li class="active"><a href="/finalProject/home.html">Home</a></li>
+            <li><a href="/finalProject/rentals.html">Rentals</a></li>
+            <li><a href="/finalProject/reservations.html">Reservations</a></li>
+            <li><a href="/finalProject/tours.html">Tours</a></li>
+            <li><a href="/finalProject/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<main>
+    <section class="infoServices">
+        <h2>Information and Services</h2>
+        <p>A $50 security deposit is required to confirm reservations.</p>
+        <p>A valid drivers license is required in hand at time of rental.</p>
+        <p>No one under 12 years of age are allowed to ride on the scooters.</p>
+        <p>Fuel charge not included.</p>
+        <p>Unlimited mileage.</p>
+        <p>Liability insurance is free of charge.</p>
+        <p>Reservations rate requires 24 hour prior notification.</p>
+        <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
+        <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
+        <p>Rentals may be returned to either location.</p>
+    </section>
+
+<br>
+
+    <section class="homeImage">
+        <img src="/finalProject/images/homePage.jpeg">
+    </section>
+
+    <section class="contactReserv">
+        <h2>Contact, Rental and Reservation Links</h2>
+        <li><a href="/finalProject/contact.html">Contact</a></li>
+        <li><a href="/finalProject/reservations.html">Reservations</a></li>
+        <li><a href="/finalProject/rentals.html">Rental Information</a></li>
+    </section>
+
+    <section class="currentWeather">
+        <h2>Weather Summary</h2>
+        
+        <p>Today's Weather</p>
+        
+        <p>Currently:
+             <span id="currently"></span> 
+        </p>
+
+        <p>Temperature: 
+            <span id="temperature"></span>
+        </p>
+
+        <p>Humidity: 
+            <span id="humidity"></span>
+        </p>
+    </section>
+
+    <section class="WeatherSum">
+        <h2 class="forecast">Three Day Forecast</h2>
+        <table class="forecastTable">
+            <thead>
+                <tr>
+                    <th><span id="Day1"></span></th>
+                    <th><span id="Day2"></span></th>
+                    <th><span id="Day3"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span id="Temp1"></span>°F<br>
+                        <img src="" alt="" id="icon1">
+                    </td>
+
+                    <td>
+                        <span id="Temp2"></span>°F<br>                 
+                        <img src="" alt="" id="icon2">
+                    </td>
+
+                    <td>
+                        <span id="Temp3"></span>°F<br>
+                        <img src="" alt="" id="icon3">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+
+</main>
+<br> 
+<footer>
+    <ul class="footerInfo">
+        <li id="first"> &copy; 2020 </li>
+        <li id="second"> Christian Kamaie </li>
+        <li id="third"> Houston Texas </li>
+        <li><a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a></li>
+      </ul>
+
+    <div id="footer-div"> Last Updated: <span id="currentDate"></span></div>
+</footer>
+
+    <script src="/finalProject/js/finalWeather.js"></script>
+    <script src="/date.js"></script>
+    <script src="/finalProject/js/menu.js"></script>
+    <script> 
+        WebFont.load({
+        google: {
+            families: ['Indie Flower' , 'Patrick Hand' , 'Handlee']
+        }
+        });
+    </script>
+
+</body>
+</html>

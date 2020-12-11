@@ -1,0 +1,256 @@
+/*fonts */
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+p {
+    font-family: 'Handlee', cursive;
+}
+
+/* header */
+
+header{
+    text-align: center;
+    justify-content: center;
+    background-color: #E9C46A;
+    border-radius: 25px;
+}
+
+/* Images */
+
+.scootsLogo {
+    width: 50%;
+}
+
+/* navigation */
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2A9D8F;
+}
+
+nav ul {
+    display: block;
+    background-color: #F4A261;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 0%;
+    border-radius: 25px;
+}
+
+nav ul li.active a {
+    background-color: #E76F51;
+    color: #2A9D8F;
+    border-radius: 25px;
+}
+
+nav button {
+    margin-left: .2rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #E76F51;
+}
+
+a:hover {
+    background-color: #E76F51;
+  }
+
+button {
+    margin: auto;
+    margin-right: 40px;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: none;
+}
+
+header button {
+    display: block;
+}
+.navigation li {
+   display: none;
+   padding: 10px;
+   font-size: medium;
+   text-align: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+/* info and services */
+
+.infoServices {
+    background-color: #2A9D8F;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.infoServices h2 {
+    text-align: center;
+}
+
+/* table */
+
+table {
+    border: 2px solid #ccc;
+    font-size: 1em;
+    box-shadow: 10px 10px 10px -1px #628ca6;
+}
+
+td, th {
+    padding: 10px 15px;
+}
+
+td, th {
+    text-align: center;
+    border: 4px solid #ccc;
+}
+
+thead tr th {
+    background-color: #2A9D8F;
+    color: black;
+    font-size: 2rem;
+    text-shadow: 1px 0 black;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+/* contact and reserve */
+
+.contactReserv {
+    background-color: #2A9D8F;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.contactReserv h2 {
+    text-align: center;
+}
+
+.contactReserv li {
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    color: grey;
+}
+
+.contactReserv a {
+    color: #F4A261;
+}
+
+/* weather */
+
+.currentWeather {
+    text-align: center;
+    background-color: #F4A261;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* weather sum */
+
+.WeatherSum {
+    text-align: center;
+    justify-content: center;
+    background-color: #E76F51;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.forecastTable {
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.forecastTable th {
+    background-color: #E76F51;
+}
+
+/* footer */
+
+footer {
+    background-color: #E76F51;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+footer a {
+    color: #2A9D8F;
+}
+
+.footerInfo li {
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+}
+
+/* tours */
+
+.tours {
+    margin-bottom: 15px;
+}
+
+.tours img {
+    border-radius: 25px;
+    width: 90%;
+}
+
+.SanMig {
+    text-align: center;
+    background-color: #F4A261;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.Arrec {
+    text-align: center;
+    background-color: #E76F51;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.Cedral {
+    text-align: center;
+    background-color: #2A9D8F;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* contact */
+
+iframe {
+    width: 100%;
+    border-radius: 25px;
+}
+
