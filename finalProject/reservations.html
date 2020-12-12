@@ -28,7 +28,91 @@
             <li><a href="/finalProject/contact.html">Contact</a></li>
         </ul>
     </nav>
-<main>
+
+<main class="rentalInfo">
+    <section class="rentalRules">
+        <h2>Rental Agreement Information</h2>
+        <p>A $50 security deposit is required to confirm reservations.</p>
+        <p>A valid drivers license is required in hand at time of rental.</p>
+        <p>No one under 12 years of age are allowed to ride on the scooters.</p>
+        <p>Fuel charge not included.</p>
+        <p>Unlimited mileage.</p>
+        <p>Liability insurance is free of charge.</p>
+        <p>Reservations rate requires 24 hour prior notification.</p>
+        <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
+        <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
+        <p>Rentals may be returned to either location.</p> 
+        <h2>Información del contrato de alquiler</h2>
+        <p> requiere un depósito de seguridad de $ 50 para confirmar las reservas.</p>
+        <p>Se requiere una licencia de conducir válida en mano al momento del alquiler.</p>
+        <p>No se permite que los menores de 12 años viajen en los patinetes.</p>
+        <p>Cargo por combustible no incluido.</p>
+        <p>Kilometraje ilimitado.</p>
+        <p>El seguro de responsabilidad es gratuito.</p>
+    </section>
+
+    <section class="rentalReservation">
+        <Form>
+            <fieldset>
+            <legend>Rental Reservation Form</legend>
+                <label class="secondInfo">
+                    Date
+                    <input type ="date" name="date" required>
+                </label>
+
+                <label class="secondInfo">
+                    Period
+                    <input type ="text" name="period" placeholder="(Ex. Fall/Winter/Spring)" required> 
+                </label>
+
+                <label class="secondInfo">
+                    Rental Type
+                    <input type ="text" name="rentalType" placeholder="(Ex. Honda Pioneer ATV)" required> 
+                </label>
+
+                <label class="secondInfo">
+                    Number of People
+                    <input type ="text" name="number" required>
+                </label>
+
+                <label class="secondInfo">
+                    Phone Number
+                    <input type ="tel" name="phone" placeholder="281-555-9084"> 
+                </label>
+
+                <label class="secondInfo">
+                    Name
+                    <input type ="text" name="name" placeholder="Enter Name" autofocus pattern="[A-Za-z]{5,}" required> 
+                </label>
+
+                <label class="secondInfo">
+                    Email
+                    <input type ="email" name="email" required placeholder="(Ex. yourEmail@yahoo.com)">
+                </label>
+
+                <label class="secondInfo">
+                    Home State or Country
+                    <input type ="text" name="home" placeholder="(Ex. United States)"> 
+                </label>
+
+                <label class="secondInfo">
+                    Cruise Line
+                    <input type ="text" name="cruise" placeholder="Enter Cruise Line (If applicable)">
+                </label>
+
+                <label class="secondInfo">
+                    Special Accomodations
+                    <textarea class="specialAccomodations" name="specialAccomodations"></textarea> 
+                </label>
+            </fieldset>
+
+                    <input type="submit" value="Submit" class="submitContact">
+                </fieldset>
+        </Form>
+    </section>
+
+
+
 
 </main>
 
