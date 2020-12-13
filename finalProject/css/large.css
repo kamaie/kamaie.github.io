@@ -42,6 +42,9 @@ main {
 }
 
 .infoServices {
+    margin: auto;
+    width:90%;
+    height:70%;
     grid-column: 1/3;
     grid-row: 1;
 }
@@ -76,6 +79,18 @@ main {
 .forecastTable {
    margin-left: auto;
    margin-right: auto;
+}
+
+/* rentals */
+
+.rentalsMain{
+    display: grid;
+    grid-template-columns: 1 fr 1fr 1fr;
+}
+
+.tableRent {
+    grid-column: 2/4;
+    margin-bottom: 30px;
 }
 
 /* tours */
@@ -138,6 +153,19 @@ main {
     margin-right: auto;
     padding-bottom: 15px;
 }
+
+.confirmed {
+    grid-column: 2/3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.confirmedGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 
 /* reservations */
 

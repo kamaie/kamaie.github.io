@@ -15,6 +15,7 @@ p {
 /* header */
 
 header{
+    display: flex;
     text-align: center;
     justify-content: center;
     background-color: #E9C46A;
@@ -24,7 +25,7 @@ header{
 /* Images */
 
 .scootsLogo {
-    width: 50%;
+    width: 15%;
 }
 
 /* navigation */
@@ -98,10 +99,18 @@ header button {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    width:90%;
 }
 
 .infoServices h2 {
     text-align: center;
+}
+
+/* home photo */
+
+.homePic{
+    border-radius: 25px;
+    width: 100%;
 }
 
 /* table */
@@ -153,6 +162,15 @@ thead tr th {
 
 .contactReserv a {
     color: #F4A261;
+}
+
+.contactPhone {
+    width: 100%;
+    
+}
+
+.confirmed {
+    text-align: center;
 }
 
 /* weather */

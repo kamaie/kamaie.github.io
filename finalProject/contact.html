@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <img src="/lesson4/images/websiteLogo.jpeg" class="scootsLogo" alt="logo">
+        <img src="/finalProject/images/scooter.png" class="scootsLogo" alt="logo">
         <h1>Scoots Rentals</h1>
     </header>
 
@@ -23,19 +23,20 @@
             <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
             <li><a href="/finalProject/home.html">Home</a></li>
             <li><a href="/finalProject/rentals.html">Rentals</a></li>
-            <li><a href="/finalProject/reservations.html">Reservations</a></li>
+            <li class="active"><a href="/finalProject/reservations.html">Reservations</a></li>
             <li><a href="/finalProject/tours.html">Tours</a></li>
-            <li class="active"><a href="/finalProject/contact.html">Contact</a></li>
+            <li><a href="/finalProject/contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </nav>    
+
 <main class="contact">
 
     <section class="contactPhoto">
-        <img src="/finalProject/images/contactUs.jpg">
+        <img class="contactPhone" src="/finalProject/images/contactUs.jpg">
     </section>
 
     <section class="contactUs">
-        <Form>
+        <Form method="GET" action="confirmed.html">
             <fieldset>
             <legend>Contact Us</legend>
                 <label class="firstInfo">

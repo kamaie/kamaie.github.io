@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <img src="/lesson4/images/websiteLogo.jpeg" class="scootsLogo" alt="logo">
+        <img src="/finalProject/images/scooter.png" class="scootsLogo" alt="logo">
         <h1>Scoots Rentals</h1>
     </header>
 
@@ -52,12 +52,12 @@
     </section>
 
     <section class="rentalReservation">
-        <Form>
+        <Form method="GET" action="confirmed.html">
             <fieldset>
             <legend>Rental Reservation Form</legend>
                 <label class="secondInfo">
                     Date
-                    <input type ="date" name="date" required>
+                    <input type ="date" name="date" autofocus required>
                 </label>
 
                 <label class="secondInfo">
@@ -82,7 +82,7 @@
 
                 <label class="secondInfo">
                     Name
-                    <input type ="text" name="name" placeholder="Enter Name" autofocus pattern="[A-Za-z]{5,}" required> 
+                    <input type ="text" name="name" placeholder="Enter Name"  pattern="[A-Za-z]{5,}" required> 
                 </label>
 
                 <label class="secondInfo">
